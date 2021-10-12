@@ -2,6 +2,7 @@ package edu.csf.oop.java.poker.game;
 
 import edu.csf.oop.java.poker.cards.Deck;
 import edu.csf.oop.java.poker.members.*;
+import edu.csf.oop.java.poker.service.Log;
 
 public class Poker {
     Game game = new Game();
@@ -25,8 +26,10 @@ public class Poker {
             game.newGame(bots, player, croupier);
             game.printCardsInMyHand();
             game.changeCards();
+            game.raiseCards();
             isPlay = game.isPlayGame();
         }
+        Log.gameEnd();
         System.out.println("Thank you for playing!");
     }
 }

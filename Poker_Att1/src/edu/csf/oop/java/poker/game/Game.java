@@ -64,8 +64,17 @@ public class Game {
         return scanner.nextByte();
     }
 
-    public void equalsCard() {
-
+    // Возвращение карт в колоду
+    public void raiseCards() {
+        Card[] card = realPlayer.discardCards();
+        for (int i = 0; i < 5; i++) {
+            croupier.returnCardToDeck(card[i]);
+        }
+        for (int i = 0; i < bots.length; i++) {
+            card = bots[i].discardCards();
+            for (int j = 0; j < 5; j++) {
+                croupier.returnCardToDeck(card[i]);
+            }
+        }
     }
-
 }

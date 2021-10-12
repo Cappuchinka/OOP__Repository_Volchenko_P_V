@@ -29,4 +29,8 @@ public class Log {
         }
     }
 
+    public static void gameEnd() {
+        logger.info("The game was ended.");
+    }
+
 }

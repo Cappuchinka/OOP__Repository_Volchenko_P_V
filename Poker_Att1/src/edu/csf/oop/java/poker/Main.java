@@ -9,5 +9,4 @@ public class Main {
 
         poker.play();
     }
-    //дописать возврат карт в колоду
 }
