@@ -1,8 +1,8 @@
 package edu.csf.oop.java.poker.cards;
 
-public class Card /*implements Comparable<Card>*/ {
-    private Suit suit;
-    private Dignity dignity;
+public class Card implements Comparable<Card> {
+    private final Suit suit;
+    private final Dignity dignity;
 
     /**
      Создаёт карту;
@@ -26,14 +26,17 @@ public class Card /*implements Comparable<Card>*/ {
         return dignity;
     }
 
-//    @Override
-//    public int compareTo(Card o)
-//    {
-//        if ((this.dignity).ordinal() == (o.dignity.ordinal()))
-//            return 0;
-//        else if ((this.dignity.ordinal()) > (o.dignity.ordinal()))
-//            return 1;
-//        else
-//            return -1;
-//    }
+    @Override
+    public int compareTo(Card o)
+    {
+        return this.dignity.ordinal() - o.dignity.ordinal();
+    }
+
+    public boolean equalsSuit(Card o) {
+        return this.suit.ordinal() == o.suit.ordinal();
+    }
+
+    public boolean equalsDignity(Card o) {
+        return this.dignity.ordinal() == o.dignity.ordinal();
+    }
 }

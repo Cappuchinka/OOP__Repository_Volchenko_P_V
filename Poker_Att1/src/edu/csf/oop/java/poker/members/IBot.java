@@ -7,4 +7,5 @@ public interface IBot {
     void giveCardsToPlayer(Card[] cards);
     void setNumOfCombination(byte numOfCombination);
     byte getNumOfCombination();
+    void sortCardsInHand();
 }

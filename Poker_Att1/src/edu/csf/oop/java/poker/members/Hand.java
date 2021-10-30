@@ -2,6 +2,8 @@ package edu.csf.oop.java.poker.members;
 
 import edu.csf.oop.java.poker.cards.Card;
 
+import java.util.Arrays;
+
 public class Hand {
     Card[] cards;
 
@@ -11,5 +13,9 @@ public class Hand {
 
     public Card[] getCards() {
         return cards;
+    }
+
+    public void sort() {
+        Arrays.sort(this.cards);
     }
 }

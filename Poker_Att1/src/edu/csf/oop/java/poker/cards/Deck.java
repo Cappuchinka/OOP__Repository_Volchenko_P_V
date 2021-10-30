@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Deck {
     public static final int COUNT_OF_CARDS = 52;
-    private List<Card> cards = new ArrayList<Card>(COUNT_OF_CARDS);
+    private final List<Card> cards = new ArrayList<Card>(COUNT_OF_CARDS);
 
     /**
      Создаёт колоду;

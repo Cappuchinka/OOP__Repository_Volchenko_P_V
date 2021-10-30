@@ -4,7 +4,7 @@ import edu.csf.oop.java.poker.cards.Card;
 
 public class Bot implements IBot {
     protected Hand hand;
-    protected byte numOfCombination;
+    protected byte numOfCombination = 0;
 
     public Bot() {
     }
@@ -33,6 +33,11 @@ public class Bot implements IBot {
     @Override
     public byte getNumOfCombination() {
         return numOfCombination;
+    }
+
+    @Override
+    public void sortCardsInHand() {
+        hand.sort();
     }
 
     //Для тестов. В игре (Класс Game) будут создаваться экземляры типа IBot, и доступа к руке не будет.
