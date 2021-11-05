@@ -1,17 +1,33 @@
-18.10.2021 18:26:58.423 [main] INFO   e.c.o.j.p.s.Log - The game was started.
-18.10.2021 18:26:58.580 [main] INFO   e.c.o.j.p.s.Log - 1 card - DIAMONDS KING
-18.10.2021 18:26:58.581 [main] INFO   e.c.o.j.p.s.Log - 2 card - HEARTS TWO
-18.10.2021 18:26:58.582 [main] INFO   e.c.o.j.p.s.Log - 3 card - SPADES QUEEN
-18.10.2021 18:26:58.583 [main] INFO   e.c.o.j.p.s.Log - 4 card - HEARTS KING
-18.10.2021 18:26:58.584 [main] INFO   e.c.o.j.p.s.Log - 5 card - SPADES FOUR
-18.10.2021 18:27:04.202 [main] INFO   e.c.o.j.p.s.Log - Card 1 was changed.
-18.10.2021 18:27:05.827 [main] INFO   e.c.o.j.p.s.Log - Card 2 was changed.
-18.10.2021 18:27:06.530 [main] INFO   e.c.o.j.p.s.Log - Card 3 was changed.
-18.10.2021 18:27:07.171 [main] INFO   e.c.o.j.p.s.Log - Card 4 was changed.
-18.10.2021 18:27:07.814 [main] INFO   e.c.o.j.p.s.Log - Card 5 was changed.
-18.10.2021 18:27:07.818 [main] INFO   e.c.o.j.p.s.Log - 1 card - HEARTS ACE
-18.10.2021 18:27:07.820 [main] INFO   e.c.o.j.p.s.Log - 2 card - CLUBS THREE
-18.10.2021 18:27:07.821 [main] INFO   e.c.o.j.p.s.Log - 3 card - CLUBS KING
-18.10.2021 18:27:07.822 [main] INFO   e.c.o.j.p.s.Log - 4 card - DIAMONDS ACE
-18.10.2021 18:27:07.823 [main] INFO   e.c.o.j.p.s.Log - 5 card - HEARTS SEVEN
-18.10.2021 18:27:12.840 [main] INFO   e.c.o.j.p.s.Log - The game was ended.
+01.11.2021 23:29:44.375 [main] INFO   e.c.o.j.p.game.Game - The game was started.
+01.11.2021 23:29:44.468 [main] INFO   e.c.o.j.p.game.Poker - 1 card - DIAMONDS ACE
+01.11.2021 23:29:44.486 [main] INFO   e.c.o.j.p.game.Poker - 2 card - DIAMONDS THREE
+01.11.2021 23:29:44.487 [main] INFO   e.c.o.j.p.game.Poker - 3 card - CLUBS SIX
+01.11.2021 23:29:44.489 [main] INFO   e.c.o.j.p.game.Poker - 4 card - CLUBS JACK
+01.11.2021 23:29:44.489 [main] INFO   e.c.o.j.p.game.Poker - 5 card - SPADES QUEEN
+01.11.2021 23:29:53.089 [main] INFO   e.c.o.j.p.game.Poker - Card 1 was changed.
+01.11.2021 23:29:53.566 [main] INFO   e.c.o.j.p.game.Poker - Card 2 was changed.
+01.11.2021 23:29:54.079 [main] INFO   e.c.o.j.p.game.Poker - Card 3 was changed.
+01.11.2021 23:29:54.589 [main] INFO   e.c.o.j.p.game.Poker - Card 4 was changed.
+01.11.2021 23:29:55.372 [main] INFO   e.c.o.j.p.game.Poker - Card 5 was changed.
+01.11.2021 23:29:55.375 [main] INFO   e.c.o.j.p.game.Poker - 1 card - CLUBS FIVE
+01.11.2021 23:29:55.376 [main] INFO   e.c.o.j.p.game.Poker - 2 card - DIAMONDS FIVE
+01.11.2021 23:29:55.377 [main] INFO   e.c.o.j.p.game.Poker - 3 card - DIAMONDS SIX
+01.11.2021 23:29:55.379 [main] INFO   e.c.o.j.p.game.Poker - 4 card - HEARTS NINE
+01.11.2021 23:29:55.380 [main] INFO   e.c.o.j.p.game.Poker - 5 card - SPADES JACK
+01.11.2021 23:34:37.064 [main] INFO   e.c.o.j.p.game.Game - The game was started.
+01.11.2021 23:34:37.138 [main] INFO   e.c.o.j.p.game.Poker - 1 card - CLUBS ACE
+01.11.2021 23:34:37.162 [main] INFO   e.c.o.j.p.game.Poker - 2 card - HEARTS TWO
+01.11.2021 23:34:37.164 [main] INFO   e.c.o.j.p.game.Poker - 3 card - HEARTS THREE
+01.11.2021 23:34:37.167 [main] INFO   e.c.o.j.p.game.Poker - 4 card - DIAMONDS SEVEN
+01.11.2021 23:34:37.169 [main] INFO   e.c.o.j.p.game.Poker - 5 card - HEARTS SEVEN
+01.11.2021 23:34:48.578 [main] INFO   e.c.o.j.p.game.Poker - Card 1 not changed.
+01.11.2021 23:34:49.313 [main] INFO   e.c.o.j.p.game.Poker - Card 2 not changed.
+01.11.2021 23:34:49.923 [main] INFO   e.c.o.j.p.game.Poker - Card 3 not changed.
+01.11.2021 23:34:50.977 [main] INFO   e.c.o.j.p.game.Poker - Card 4 was changed.
+01.11.2021 23:34:51.669 [main] INFO   e.c.o.j.p.game.Poker - Card 5 was changed.
+01.11.2021 23:34:51.671 [main] INFO   e.c.o.j.p.game.Poker - 1 card - CLUBS ACE
+01.11.2021 23:34:51.674 [main] INFO   e.c.o.j.p.game.Poker - 2 card - HEARTS TWO
+01.11.2021 23:34:51.676 [main] INFO   e.c.o.j.p.game.Poker - 3 card - CLUBS TWO
+01.11.2021 23:34:51.677 [main] INFO   e.c.o.j.p.game.Poker - 4 card - HEARTS THREE
+01.11.2021 23:34:51.678 [main] INFO   e.c.o.j.p.game.Poker - 5 card - SPADES FIVE
+01.11.2021 23:35:05.231 [main] INFO   e.c.o.j.p.game.Poker - The game was ended.
