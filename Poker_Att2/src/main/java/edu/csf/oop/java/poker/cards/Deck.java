@@ -53,6 +53,10 @@ public class Deck {
         } else return null;
     }
 
+    public List<Card> getDeck() {
+        return cards;
+    }
+
     /* Private methods */
     private void makeDeck() {
         for (int i = 0; i < 4; i++) {
