@@ -7,26 +7,8 @@
     <list default="true" id="dd0148fc-2d3e-4874-a8ef-0ac9f9cc5183" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Poker.log" beforeDir="false" afterPath="$PROJECT_DIR$/Poker.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/csf/oop/java/poker/game/Poker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/csf/oop/java/poker/game/Poker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PokerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PokerTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/cards/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/cards/Card.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/cards/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/cards/Deck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/cards/Dignity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/cards/Dignity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/cards/Suit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/cards/Suit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/csf/oop/java/poker/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/csf/oop/java/poker/game/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/game/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/game/Poker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/game/Poker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/Bot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/Bot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/Croupier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/Croupier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/Hand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/Hand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/IBot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/IBot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/ICroupier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/ICroupier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/IPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/IPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/service/CombinationDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/service/CombinationDefinition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/service/Combinations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/service/Combinations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PokerTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +116,7 @@
       <workItem from="1637005489344" duration="6232000" />
       <workItem from="1637012514475" duration="8000" />
       <workItem from="1637012760986" duration="1029000" />
+      <workItem from="1637014073998" duration="2091000" />
     </task>
     <servers />
   </component>
@@ -151,5 +134,19 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/csf/oop/java/poker/game/Game.java</url>
+          <line>125</line>
+          <properties class="edu.csf.oop.java.poker.game.Game" method="determiningOfTheWinner">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

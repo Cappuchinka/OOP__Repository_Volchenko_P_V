@@ -137,9 +137,9 @@ public class Game {
             checkCombinationsOfMembers(b);
         }
 
-        byte[] comb = new byte[4];
+        byte[] comb = new byte[3];
         comb[0] = realPlayer.getNumOfCombination();
-        for (byte i = 1; i < bots.length; i++) {
+        for (byte i = 1; i <= bots.length; i++) {
             comb[i] = bots[i - 1].getNumOfCombination();
         }
         return getIndexOfLargest(comb);
@@ -149,7 +149,7 @@ public class Game {
         if (numbers == null || numbers.length == 0)
             return -1;
         byte largest = 0;
-        for (byte i = 1; i < numbers.length; i++) {
+        for (byte i = 0; i < numbers.length; i++) {
             if (numbers[i] >= numbers[largest]) {
                 largest = i;
                 numOfCombinationsOfWinner = numbers[i];
