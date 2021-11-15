@@ -118,8 +118,15 @@ public class Poker {
         LOGGER.info("The save has been loaded.");
     }
 
-    private static String readFileAsString() throws IOException {
-        return new String(Files.readAllBytes(Paths.get("save.json")));
+    private static String readFileAsString() {
+        try {
+            byte[] bytes = Files.readAllBytes(Paths.get("save.json"));
+            return new String(bytes);
+        } catch (IOException ex) {
+            System.err.println("isn't founded. Please, start program again and start new game!\n");
+            System.out.println(ex.getMessage());
+        }
+        return "";
     }
 
     private void deserialization() {
