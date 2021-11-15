@@ -10,7 +10,9 @@ public class Deck {
     /**
      Создаёт колоду;
      */
-    public Deck() {
+    public Deck() { }
+
+    public void makeNewDeck() {
         makeDeck();
     }
 

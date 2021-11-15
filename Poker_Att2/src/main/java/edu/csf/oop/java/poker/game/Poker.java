@@ -1,26 +1,31 @@
 package edu.csf.oop.java.poker.game;
 
+import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
+import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectWriter;
 import edu.csf.oop.java.poker.cards.Card;
 import edu.csf.oop.java.poker.cards.Deck;
 import edu.csf.oop.java.poker.members.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Scanner;
 
 public class Poker {
     private static final Logger LOGGER = LoggerFactory.getLogger(Poker.class);
     private static final Scanner scanner = new Scanner(System.in);
 
-    private final Game game = new Game();
-    private final IBot bot1 = new Bot();
-    private final IBot bot2 = new Bot();
-    private final IPlayer player = new Player();
-
-    private final IBot[] bots = {bot1, bot2};
+    private Game game = new Game();
+    private Bot bot1 = new Bot();
+    private Bot bot2 = new Bot();
+    private Player player = new Player();
 
     private final Deck deck = new Deck();
-    private final ICroupier croupier = new Croupier(deck);
+    private Croupier croupier = new Croupier(deck);
 
     private byte isPlay = 1;
 
@@ -28,28 +33,19 @@ public class Poker {
 
     }
 
-    public void play() {
+    public void play() throws IOException {
+        System.out.println("===========================================================================================================");
+        byte isRestore = isPlayGame("Would you restore game? 1 - Yes, 0 - No. ");
+        if (isRestore == 1) {
+            restore();
+            game.restoreGame(bot1, bot2, player, croupier);
+            gameProcess();
+        }
         while (isPlay == 1) {
             System.out.println("===========================================================================================================");
-            game.newGame(bots, player, croupier);
-            printCardsInMyHand();
-            changeCards();
-
-            System.out.println();
-            System.out.println("===========================================================================================================");
-            System.out.println();
-
-            printCardsInMyHand();
-
-            System.out.println();
-            System.out.println("===========================================================================================================");
-            System.out.println();
-
-            System.out.println(game.determiningOfTheWinner());
-
-            System.out.println();
-
-            isPlay = isPlayGame();
+            game.newGame(bot1, bot2, player, croupier);
+            save();
+            gameProcess();
         }
         LOGGER.info("The game was ended.");
         System.out.println("Thank you for playing!");
@@ -64,8 +60,8 @@ public class Poker {
         }
     }
 
-    public byte isPlayGame() {
-        System.out.println("Play again? 1 - Yes, 0 - No. ");
+    public byte isPlayGame(String msg) {
+        System.out.print(msg);
         return scanner.nextByte();
     }
 
@@ -81,5 +77,56 @@ public class Poker {
             }
         }
         player.sortCardsInHand();
+    }
+
+    public void gameProcess() {
+        printCardsInMyHand();
+        changeCards();
+
+        System.out.println();
+        System.out.println("===========================================================================================================");
+        System.out.println();
+
+        printCardsInMyHand();
+
+        System.out.println();
+        System.out.println("===========================================================================================================");
+        System.out.println();
+
+        System.out.println(game.determiningOfTheWinner());
+
+        System.out.println();
+
+        isPlay = isPlayGame("Play again? 1 - Yes, 0 - No. ");
+    }
+
+    public void save() throws IOException {
+        ObjectMapper mapper = new ObjectMapper();
+        ObjectWriter writer = mapper.writer(new DefaultPrettyPrinter());
+
+        writer.writeValue(Paths.get("save.json").toFile(), game);
+        LOGGER.info("The cards issued at the beginning of the game are saved.");
+    }
+
+    public void restore() throws IOException {
+        ObjectMapper mapper = new ObjectMapper();
+        mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
+
+        String json = readFileAsString();
+        game = mapper.readValue(json, Game.class);
+        deserialization();
+        LOGGER.info("The save has been loaded.");
+    }
+
+    private static String readFileAsString() throws IOException {
+        return new String(Files.readAllBytes(Paths.get("save.json")));
+    }
+
+    private void deserialization() {
+        player = game.getRealPlayer();
+        bot1 = game.getBot1();
+        bot2 = game.getBot2();
+        croupier = game.getCroupier();
+        game = new Game();
     }
 }

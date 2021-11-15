@@ -6,10 +6,13 @@ import edu.csf.oop.java.poker.cards.Deck;
 public class Croupier implements ICroupier {
     private Deck deck;
 
+    public Croupier() {}
+
     /**
      Создаёт крупье с колодой;
      */
     public Croupier(Deck deck) {
+        deck.makeNewDeck();
         this.deck = deck;
     }
 

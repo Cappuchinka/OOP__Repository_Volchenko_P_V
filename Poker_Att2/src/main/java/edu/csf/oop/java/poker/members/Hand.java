@@ -7,6 +7,8 @@ import java.util.Arrays;
 public class Hand {
     Card[] cards;
 
+    public Hand() {}
+
     public Hand(Card[] cards) {
         this.cards = cards.clone();
     }

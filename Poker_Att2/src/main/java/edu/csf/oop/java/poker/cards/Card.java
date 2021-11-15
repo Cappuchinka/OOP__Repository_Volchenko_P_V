@@ -1,8 +1,10 @@
 package edu.csf.oop.java.poker.cards;
 
 public class Card implements Comparable<Card> {
-    private final Suit suit;
-    private final Dignity dignity;
+    private Suit suit;
+    private Dignity dignity;
+
+    public Card() {}
 
     /**
      Создаёт карту;

@@ -1,31 +1,55 @@
 package edu.csf.oop.java.poker.game;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import edu.csf.oop.java.poker.cards.Card;
+import edu.csf.oop.java.poker.cards.Deck;
 import edu.csf.oop.java.poker.members.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.Scanner;
-
 import static edu.csf.oop.java.poker.service.CombinationDefinition.*;
 
 public class Game {
-    private IBot[] bots;
-    private IPlayer realPlayer;
-    private ICroupier croupier;
-    private final Scanner scanner = new Scanner(System.in);
 
+    @JsonIgnore
+    private Bot[] bots;
+
+    @JsonSerialize
+    private Bot bot1;
+    @JsonSerialize
+    private Bot bot2;
+    @JsonSerialize
+    private Player realPlayer;
+    @JsonSerialize
+    private Deck deck;
+    @JsonSerialize
+    private Croupier croupier;
+
+    @JsonIgnore
     private byte numOfCombinationsOfWinner = 0;
 
+    @JsonIgnore
     private static final Logger LOGGER = LoggerFactory.getLogger(Game.class);
 
     public Game() {}
 
-    public void newGame(IBot[] bots, IPlayer realPlayer, ICroupier croupier) {
+    public Game(Bot bot1, Bot bot2, Player realPlayer, Croupier croupier, Deck deck) {
+        this.bot1 = bot1;
+        this.bot2 = bot2;
+        this.realPlayer = realPlayer;
+        this.deck = deck;
+        this.croupier = croupier;
+    }
+
+    public void newGame(Bot bot1, Bot bot2, Player realPlayer, Croupier croupier) {
         LOGGER.info("The game was started.");
-        this.bots = bots;
+        numOfCombinationsOfWinner = 0;
+        this.bot1 = bot1;
+        this.bot2 = bot2;
         this.realPlayer = realPlayer;
         this.croupier = croupier;
+        bots = new Bot[] {this.bot1, this.bot2};
 
         croupier.shuffle();
         for (IBot bot : bots) {
@@ -41,6 +65,15 @@ public class Game {
         realPlayer.giveCardsToPlayer(new Card[] {croupier.pullOutTheCard(), croupier.pullOutTheCard(), croupier.pullOutTheCard(),
                 croupier.pullOutTheCard(), croupier.pullOutTheCard()});
         realPlayer.sortCardsInHand();
+    }
+
+    public void restoreGame(Bot bot1, Bot bot2, Player player, Croupier croupier) {
+        this.bot1 = bot1;
+        this.bot2 = bot2;
+        this.realPlayer = player;
+        this.croupier = croupier;
+        bots = new Bot[] {this.bot1, this.bot2};
+        LOGGER.info("Game is restored.");
     }
 
     public void changeCards(byte numOfCards) {
@@ -123,5 +156,53 @@ public class Game {
             }
         }
         return largest;
+    }
+
+    public Bot getBot1() {
+        return bot1;
+    }
+
+    public void setBot1(Bot bot1) {
+        this.bot1 = bot1;
+    }
+
+    public Bot getBot2() {
+        return bot2;
+    }
+
+    public void setBot2(Bot bot2) {
+        this.bot2 = bot2;
+    }
+
+    public Bot[] getBots() {
+        return bots;
+    }
+
+    public void setBots(Bot[] bots) {
+        this.bots = bots;
+    }
+
+    public Player getRealPlayer() {
+        return realPlayer;
+    }
+
+    public void setRealPlayer(Player realPlayer) {
+        this.realPlayer = realPlayer;
+    }
+
+    public Croupier getCroupier() {
+        return croupier;
+    }
+
+    public void setCroupier(Croupier croupier) {
+        this.croupier = croupier;
+    }
+
+    public Deck getDeck() {
+        return deck;
+    }
+
+    public void setDeck(Deck deck) {
+        this.deck = deck;
     }
 }

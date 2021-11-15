@@ -1,0 +1,183 @@
+{
+  "bot1" : {
+    "hand" : {
+      "cards" : [ {
+        "suit" : "SPADES",
+        "dignity" : "FIVE"
+      }, {
+        "suit" : "CLUBS",
+        "dignity" : "FIVE"
+      }, {
+        "suit" : "HEARTS",
+        "dignity" : "EIGHT"
+      }, {
+        "suit" : "DIAMONDS",
+        "dignity" : "EIGHT"
+      }, {
+        "suit" : "DIAMONDS",
+        "dignity" : "QUEEN"
+      } ]
+    },
+    "numOfCombination" : 0
+  },
+  "bot2" : {
+    "hand" : {
+      "cards" : [ {
+        "suit" : "DIAMONDS",
+        "dignity" : "THREE"
+      }, {
+        "suit" : "CLUBS",
+        "dignity" : "THREE"
+      }, {
+        "suit" : "DIAMONDS",
+        "dignity" : "SEVEN"
+      }, {
+        "suit" : "CLUBS",
+        "dignity" : "TEN"
+      }, {
+        "suit" : "SPADES",
+        "dignity" : "KING"
+      } ]
+    },
+    "numOfCombination" : 0
+  },
+  "realPlayer" : {
+    "hand" : {
+      "cards" : [ {
+        "suit" : "CLUBS",
+        "dignity" : "ACE"
+      }, {
+        "suit" : "DIAMONDS",
+        "dignity" : "FIVE"
+      }, {
+        "suit" : "SPADES",
+        "dignity" : "SIX"
+      }, {
+        "suit" : "CLUBS",
+        "dignity" : "JACK"
+      }, {
+        "suit" : "SPADES",
+        "dignity" : "QUEEN"
+      } ]
+    },
+    "numOfCombination" : 0
+  },
+  "deck" : null,
+  "croupier" : {
+    "deck" : {
+      "size" : 37,
+      "deck" : [ {
+        "suit" : "HEARTS",
+        "dignity" : "SEVEN"
+      }, {
+        "suit" : "SPADES",
+        "dignity" : "FOUR"
+      }, {
+        "suit" : "SPADES",
+        "dignity" : "THREE"
+      }, {
+        "suit" : "HEARTS",
+        "dignity" : "THREE"
+      }, {
+        "suit" : "CLUBS",
+        "dignity" : "NINE"
+      }, {
+        "suit" : "CLUBS",
+        "dignity" : "KING"
+      }, {
+        "suit" : "SPADES",
+        "dignity" : "JACK"
+      }, {
+        "suit" : "CLUBS",
+        "dignity" : "SIX"
+      }, {
+        "suit" : "DIAMONDS",
+        "dignity" : "TWO"
+      }, {
+        "suit" : "DIAMONDS",
+        "dignity" : "NINE"
+      }, {
+        "suit" : "HEARTS",
+        "dignity" : "SIX"
+      }, {
+        "suit" : "SPADES",
+        "dignity" : "EIGHT"
+      }, {
+        "suit" : "HEARTS",
+        "dignity" : "QUEEN"
+      }, {
+        "suit" : "CLUBS",
+        "dignity" : "QUEEN"
+      }, {
+        "suit" : "DIAMONDS",
+        "dignity" : "ACE"
+      }, {
+        "suit" : "HEARTS",
+        "dignity" : "NINE"
+      }, {
+        "suit" : "HEARTS",
+        "dignity" : "FOUR"
+      }, {
+        "suit" : "CLUBS",
+        "dignity" : "EIGHT"
+      }, {
+        "suit" : "DIAMONDS",
+        "dignity" : "JACK"
+      }, {
+        "suit" : "CLUBS",
+        "dignity" : "FOUR"
+      }, {
+        "suit" : "HEARTS",
+        "dignity" : "TEN"
+      }, {
+        "suit" : "HEARTS",
+        "dignity" : "KING"
+      }, {
+        "suit" : "HEARTS",
+        "dignity" : "JACK"
+      }, {
+        "suit" : "DIAMONDS",
+        "dignity" : "KING"
+      }, {
+        "suit" : "DIAMONDS",
+        "dignity" : "FOUR"
+      }, {
+        "suit" : "DIAMONDS",
+        "dignity" : "TEN"
+      }, {
+        "suit" : "HEARTS",
+        "dignity" : "FIVE"
+      }, {
+        "suit" : "DIAMONDS",
+        "dignity" : "SIX"
+      }, {
+        "suit" : "HEARTS",
+        "dignity" : "ACE"
+      }, {
+        "suit" : "SPADES",
+        "dignity" : "TWO"
+      }, {
+        "suit" : "SPADES",
+        "dignity" : "NINE"
+      }, {
+        "suit" : "CLUBS",
+        "dignity" : "TWO"
+      }, {
+        "suit" : "SPADES",
+        "dignity" : "SEVEN"
+      }, {
+        "suit" : "CLUBS",
+        "dignity" : "SEVEN"
+      }, {
+        "suit" : "SPADES",
+        "dignity" : "ACE"
+      }, {
+        "suit" : "SPADES",
+        "dignity" : "TEN"
+      }, {
+        "suit" : "HEARTS",
+        "dignity" : "TWO"
+      } ]
+    }
+  }
+}
