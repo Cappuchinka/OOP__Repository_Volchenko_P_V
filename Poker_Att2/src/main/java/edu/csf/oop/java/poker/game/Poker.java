@@ -36,15 +36,22 @@ public class Poker {
     public void play() throws IOException {
         System.out.println("===========================================================================================================");
         byte isRestore = isPlayGame("Would you restore game? 1 - Yes, 0 - No. ");
+        byte isSave = 0;
         if (isRestore == 1) {
             restore();
             game.restoreGame(bot1, bot2, player, croupier);
+            printCardsInMyHand();
             gameProcess();
         }
         while (isPlay == 1) {
             System.out.println("===========================================================================================================");
             game.newGame(bot1, bot2, player, croupier);
-            save();
+            printCardsInMyHand();
+            isSave = isPlayGame("Would you save game? 1 - Yes, 0 - No. ");
+            if (isSave == 1)
+                save();
+            else
+                LOGGER.info("Game don't save.");
             gameProcess();
         }
         LOGGER.info("The game was ended.");
@@ -80,7 +87,6 @@ public class Poker {
     }
 
     public void gameProcess() {
-        printCardsInMyHand();
         changeCards();
 
         System.out.println();

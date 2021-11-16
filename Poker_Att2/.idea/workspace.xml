@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd0148fc-2d3e-4874-a8ef-0ac9f9cc5183" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poker.log" beforeDir="false" afterPath="$PROJECT_DIR$/Poker.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/csf/oop/java/poker/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/csf/oop/java/poker/game/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/game/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/csf/oop/java/poker/game/Poker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/csf/oop/java/poker/game/Poker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/game/Poker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/game/Poker.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
