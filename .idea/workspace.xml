@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3e987c92-9447-417b-abba-589a61ae71dc" name="Changes" comment="Poker 2.2" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Cappuchinka &lt;volchenko.coffee@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="20mtkg3EgHxZyIpGL9FrqcmU5UB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Poker_Att2" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e987c92-9447-417b-abba-589a61ae71dc" name="Changes" comment="" />
+      <created>1636661760550</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636661760550</updated>
+      <workItem from="1636661801531" duration="89000" />
+      <workItem from="1636920730435" duration="13000" />
+      <workItem from="1636920754650" duration="2000" />
+      <workItem from="1636920765727" duration="121000" />
+      <workItem from="1637012308080" duration="196000" />
+      <workItem from="1637012527721" duration="224000" />
+      <workItem from="1637013802169" duration="261000" />
+      <workItem from="1637016450417" duration="514000" />
+      <workItem from="1637100514851" duration="68000" />
+    </task>
+    <task id="LOCAL-00001" summary="Edit deck">
+      <created>1636920871136</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636920871136</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Poker 2.0.">
+      <created>1637012409999</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637012409999</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Edit pom.xml.">
+      <created>1637012554119</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637012554119</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Poker 2.0.1.">
+      <created>1637013884497</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1637013884497</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Poker 2.1">
+      <created>1637016471803</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637016471803</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Poker 2.2">
+      <created>1637100546803</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1637100546804</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Edit deck" />
+    <MESSAGE value="Poker 2.0." />
+    <MESSAGE value="Edit pom.xml." />
+    <MESSAGE value="Poker 2.0.1." />
+    <MESSAGE value="Poker 2.1" />
+    <MESSAGE value="Poker 2.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Poker 2.2" />
+  </component>
+</project>

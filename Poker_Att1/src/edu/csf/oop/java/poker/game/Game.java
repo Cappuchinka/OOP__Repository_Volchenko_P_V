@@ -5,7 +5,6 @@ import edu.csf.oop.java.poker.members.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.Scanner;
 
 import static edu.csf.oop.java.poker.service.CombinationDefinition.*;
 
@@ -13,7 +12,6 @@ public class Game {
     private IBot[] bots;
     private IPlayer realPlayer;
     private ICroupier croupier;
-    private final Scanner scanner = new Scanner(System.in);
 
     private byte numOfCombinationsOfWinner = 0;
 

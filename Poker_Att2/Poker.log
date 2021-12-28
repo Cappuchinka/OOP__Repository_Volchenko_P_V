@@ -1144,3 +1144,110 @@
 16.11.2021 01:47:10.573 [main] INFO   e.c.o.j.p.game.Poker - 4 card - DIAMONDS KING
 16.11.2021 01:47:10.574 [main] INFO   e.c.o.j.p.game.Poker - 5 card - SPADES KING
 16.11.2021 01:47:13.259 [main] INFO   e.c.o.j.p.game.Poker - The game was ended.
+17.11.2021 01:19:14.850 [main] INFO   e.c.o.j.p.game.Poker - The save has been loaded.
+17.11.2021 01:19:14.856 [main] INFO   e.c.o.j.p.game.Game - Game is restored.
+17.11.2021 01:19:14.877 [main] INFO   e.c.o.j.p.game.Poker - 1 card - HEARTS ACE
+17.11.2021 01:19:14.889 [main] INFO   e.c.o.j.p.game.Poker - 2 card - SPADES ACE
+17.11.2021 01:19:14.890 [main] INFO   e.c.o.j.p.game.Poker - 3 card - DIAMONDS FIVE
+17.11.2021 01:19:14.891 [main] INFO   e.c.o.j.p.game.Poker - 4 card - HEARTS SEVEN
+17.11.2021 01:19:14.893 [main] INFO   e.c.o.j.p.game.Poker - 5 card - HEARTS TEN
+17.11.2021 01:19:16.999 [main] INFO   e.c.o.j.p.game.Poker - Card 1 not changed.
+17.11.2021 01:19:17.796 [main] INFO   e.c.o.j.p.game.Poker - Card 2 not changed.
+17.11.2021 01:19:18.382 [main] INFO   e.c.o.j.p.game.Poker - Card 3 not changed.
+17.11.2021 01:19:18.841 [main] INFO   e.c.o.j.p.game.Poker - Card 4 not changed.
+17.11.2021 01:19:19.334 [main] INFO   e.c.o.j.p.game.Poker - Card 5 not changed.
+17.11.2021 01:19:19.336 [main] INFO   e.c.o.j.p.game.Poker - 1 card - HEARTS ACE
+17.11.2021 01:19:19.337 [main] INFO   e.c.o.j.p.game.Poker - 2 card - SPADES ACE
+17.11.2021 01:19:19.340 [main] INFO   e.c.o.j.p.game.Poker - 3 card - DIAMONDS FIVE
+17.11.2021 01:19:19.341 [main] INFO   e.c.o.j.p.game.Poker - 4 card - HEARTS SEVEN
+17.11.2021 01:19:19.342 [main] INFO   e.c.o.j.p.game.Poker - 5 card - HEARTS TEN
+17.11.2021 01:19:20.504 [main] INFO   e.c.o.j.p.game.Poker - The game was ended.
+17.11.2021 01:28:01.676 [main] INFO   e.c.o.j.p.game.Game - The game was started.
+17.11.2021 01:28:01.776 [main] INFO   e.c.o.j.p.game.Poker - 1 card - SPADES THREE
+17.11.2021 01:28:01.828 [main] INFO   e.c.o.j.p.game.Poker - 2 card - CLUBS FOUR
+17.11.2021 01:28:01.831 [main] INFO   e.c.o.j.p.game.Poker - 3 card - CLUBS SIX
+17.11.2021 01:28:01.833 [main] INFO   e.c.o.j.p.game.Poker - 4 card - DIAMONDS EIGHT
+17.11.2021 01:28:01.836 [main] INFO   e.c.o.j.p.game.Poker - 5 card - CLUBS QUEEN
+17.11.2021 01:28:02.833 [main] INFO   e.c.o.j.p.game.Poker - Game don't save.
+17.11.2021 01:28:03.068 [main] INFO   e.c.o.j.p.game.Poker - Card 1 not changed.
+17.11.2021 01:28:03.396 [main] INFO   e.c.o.j.p.game.Poker - Card 2 not changed.
+17.11.2021 01:28:04.030 [main] INFO   e.c.o.j.p.game.Poker - Card 3 not changed.
+17.11.2021 01:28:04.370 [main] INFO   e.c.o.j.p.game.Poker - Card 4 not changed.
+17.11.2021 01:28:04.901 [main] INFO   e.c.o.j.p.game.Poker - Card 5 not changed.
+17.11.2021 01:28:04.905 [main] INFO   e.c.o.j.p.game.Poker - 1 card - SPADES THREE
+17.11.2021 01:28:04.907 [main] INFO   e.c.o.j.p.game.Poker - 2 card - CLUBS FOUR
+17.11.2021 01:28:04.910 [main] INFO   e.c.o.j.p.game.Poker - 3 card - CLUBS SIX
+17.11.2021 01:28:04.920 [main] INFO   e.c.o.j.p.game.Poker - 4 card - DIAMONDS EIGHT
+17.11.2021 01:28:04.925 [main] INFO   e.c.o.j.p.game.Poker - 5 card - CLUBS QUEEN
+17.11.2021 01:28:06.594 [main] INFO   e.c.o.j.p.game.Poker - The game was ended.
+17.11.2021 08:17:29.920 [main] INFO   e.c.o.j.p.game.Game - The game was started.
+17.11.2021 08:17:30.247 [main] INFO   e.c.o.j.p.game.Poker - 1 card - DIAMONDS ACE
+17.11.2021 08:17:30.467 [main] INFO   e.c.o.j.p.game.Poker - 2 card - SPADES TWO
+17.11.2021 08:17:30.479 [main] INFO   e.c.o.j.p.game.Poker - 3 card - HEARTS THREE
+17.11.2021 08:17:30.489 [main] INFO   e.c.o.j.p.game.Poker - 4 card - DIAMONDS SEVEN
+17.11.2021 08:17:30.491 [main] INFO   e.c.o.j.p.game.Poker - 5 card - HEARTS QUEEN
+17.11.2021 08:17:31.378 [main] INFO   e.c.o.j.p.game.Poker - Game don't save.
+17.11.2021 08:17:31.942 [main] INFO   e.c.o.j.p.game.Poker - Card 1 not changed.
+17.11.2021 08:17:32.412 [main] INFO   e.c.o.j.p.game.Poker - Card 2 not changed.
+17.11.2021 08:17:32.780 [main] INFO   e.c.o.j.p.game.Poker - Card 3 not changed.
+17.11.2021 08:17:33.293 [main] INFO   e.c.o.j.p.game.Poker - Card 4 not changed.
+17.11.2021 08:17:36.156 [main] INFO   e.c.o.j.p.game.Poker - Card 5 not changed.
+17.11.2021 08:17:36.172 [main] INFO   e.c.o.j.p.game.Poker - 1 card - DIAMONDS ACE
+17.11.2021 08:17:36.176 [main] INFO   e.c.o.j.p.game.Poker - 2 card - SPADES TWO
+17.11.2021 08:17:36.187 [main] INFO   e.c.o.j.p.game.Poker - 3 card - HEARTS THREE
+17.11.2021 08:17:36.195 [main] INFO   e.c.o.j.p.game.Poker - 4 card - DIAMONDS SEVEN
+17.11.2021 08:17:36.232 [main] INFO   e.c.o.j.p.game.Poker - 5 card - HEARTS QUEEN
+17.11.2021 08:17:38.997 [main] INFO   e.c.o.j.p.game.Poker - The game was ended.
+17.11.2021 08:37:41.111 [main] INFO   e.c.o.j.p.game.Game - The game was started.
+17.11.2021 08:37:41.467 [main] INFO   e.c.o.j.p.game.Poker - 1 card - SPADES ACE
+17.11.2021 08:37:41.542 [main] INFO   e.c.o.j.p.game.Poker - 2 card - DIAMONDS FIVE
+17.11.2021 08:37:41.543 [main] INFO   e.c.o.j.p.game.Poker - 3 card - HEARTS SIX
+17.11.2021 08:37:41.545 [main] INFO   e.c.o.j.p.game.Poker - 4 card - SPADES SEVEN
+17.11.2021 08:37:41.550 [main] INFO   e.c.o.j.p.game.Poker - 5 card - DIAMONDS EIGHT
+17.11.2021 08:38:02.942 [main] INFO   e.c.o.j.p.game.Poker - Game don't save.
+17.11.2021 08:38:14.897 [main] INFO   e.c.o.j.p.game.Poker - Card 1 was changed.
+17.11.2021 08:38:15.514 [main] INFO   e.c.o.j.p.game.Poker - Card 2 was changed.
+17.11.2021 08:38:16.838 [main] INFO   e.c.o.j.p.game.Poker - Card 3 not changed.
+17.11.2021 08:38:17.405 [main] INFO   e.c.o.j.p.game.Poker - Card 4 not changed.
+17.11.2021 08:38:18.191 [main] INFO   e.c.o.j.p.game.Poker - Card 5 not changed.
+17.11.2021 08:38:18.194 [main] INFO   e.c.o.j.p.game.Poker - 1 card - DIAMONDS ACE
+17.11.2021 08:38:18.199 [main] INFO   e.c.o.j.p.game.Poker - 2 card - HEARTS SIX
+17.11.2021 08:38:18.208 [main] INFO   e.c.o.j.p.game.Poker - 3 card - SPADES SEVEN
+17.11.2021 08:38:18.215 [main] INFO   e.c.o.j.p.game.Poker - 4 card - DIAMONDS EIGHT
+17.11.2021 08:38:18.218 [main] INFO   e.c.o.j.p.game.Poker - 5 card - CLUBS QUEEN
+17.11.2021 08:39:02.006 [main] INFO   e.c.o.j.p.game.Game - The game was started.
+17.11.2021 08:39:02.008 [main] INFO   e.c.o.j.p.game.Poker - 1 card - HEARTS ACE
+17.11.2021 08:39:02.018 [main] INFO   e.c.o.j.p.game.Poker - 2 card - SPADES FIVE
+17.11.2021 08:39:02.034 [main] INFO   e.c.o.j.p.game.Poker - 3 card - HEARTS SEVEN
+17.11.2021 08:39:02.043 [main] INFO   e.c.o.j.p.game.Poker - 4 card - CLUBS EIGHT
+17.11.2021 08:39:02.049 [main] INFO   e.c.o.j.p.game.Poker - 5 card - DIAMONDS QUEEN
+17.11.2021 08:39:39.392 [main] INFO   e.c.o.j.p.game.Poker - The cards issued at the beginning of the game are saved.
+17.11.2021 08:39:45.355 [main] INFO   e.c.o.j.p.game.Poker - Card 1 not changed.
+17.11.2021 08:39:46.609 [main] INFO   e.c.o.j.p.game.Poker - Card 2 not changed.
+17.11.2021 08:39:47.049 [main] INFO   e.c.o.j.p.game.Poker - Card 3 not changed.
+17.11.2021 08:39:47.372 [main] INFO   e.c.o.j.p.game.Poker - Card 4 not changed.
+17.11.2021 08:39:47.605 [main] INFO   e.c.o.j.p.game.Poker - Card 5 not changed.
+17.11.2021 08:39:47.630 [main] INFO   e.c.o.j.p.game.Poker - 1 card - HEARTS ACE
+17.11.2021 08:39:47.634 [main] INFO   e.c.o.j.p.game.Poker - 2 card - SPADES FIVE
+17.11.2021 08:39:47.643 [main] INFO   e.c.o.j.p.game.Poker - 3 card - HEARTS SEVEN
+17.11.2021 08:39:47.658 [main] INFO   e.c.o.j.p.game.Poker - 4 card - CLUBS EIGHT
+17.11.2021 08:39:47.665 [main] INFO   e.c.o.j.p.game.Poker - 5 card - DIAMONDS QUEEN
+17.11.2021 08:41:33.120 [main] INFO   e.c.o.j.p.game.Poker - The game was ended.
+17.11.2021 08:42:09.320 [main] INFO   e.c.o.j.p.game.Poker - The save has been loaded.
+17.11.2021 08:42:09.335 [main] INFO   e.c.o.j.p.game.Game - Game is restored.
+17.11.2021 08:42:09.434 [main] INFO   e.c.o.j.p.game.Poker - 1 card - HEARTS ACE
+17.11.2021 08:42:09.506 [main] INFO   e.c.o.j.p.game.Poker - 2 card - SPADES FIVE
+17.11.2021 08:42:09.507 [main] INFO   e.c.o.j.p.game.Poker - 3 card - HEARTS SEVEN
+17.11.2021 08:42:09.508 [main] INFO   e.c.o.j.p.game.Poker - 4 card - CLUBS EIGHT
+17.11.2021 08:42:09.510 [main] INFO   e.c.o.j.p.game.Poker - 5 card - DIAMONDS QUEEN
+17.11.2021 08:59:17.966 [main] INFO   e.c.o.j.p.game.Poker - Card 1 not changed.
+17.11.2021 08:59:18.219 [main] INFO   e.c.o.j.p.game.Poker - Card 2 not changed.
+17.11.2021 08:59:18.479 [main] INFO   e.c.o.j.p.game.Poker - Card 3 not changed.
+17.11.2021 08:59:18.705 [main] INFO   e.c.o.j.p.game.Poker - Card 4 not changed.
+17.11.2021 08:59:19.014 [main] INFO   e.c.o.j.p.game.Poker - Card 5 not changed.
+17.11.2021 08:59:19.015 [main] INFO   e.c.o.j.p.game.Poker - 1 card - HEARTS ACE
+17.11.2021 08:59:19.016 [main] INFO   e.c.o.j.p.game.Poker - 2 card - SPADES FIVE
+17.11.2021 08:59:19.017 [main] INFO   e.c.o.j.p.game.Poker - 3 card - HEARTS SEVEN
+17.11.2021 08:59:19.018 [main] INFO   e.c.o.j.p.game.Poker - 4 card - CLUBS EIGHT
+17.11.2021 08:59:19.021 [main] INFO   e.c.o.j.p.game.Poker - 5 card - DIAMONDS QUEEN
+17.11.2021 08:59:19.788 [main] INFO   e.c.o.j.p.game.Poker - The game was ended.

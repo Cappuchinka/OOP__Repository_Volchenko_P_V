@@ -5,16 +5,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd0148fc-2d3e-4874-a8ef-0ac9f9cc5183" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/csf/oop/java/poker/game/Poker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/csf/oop/java/poker/game/Poker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Poker_Att1/Poker.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Poker_Att1/Poker.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Poker_Att1/Poker_Att1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Poker_Att1/Poker_Att1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Poker_Att1/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Poker_Att1/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Poker_Att1/out/production/Poker_Att1/edu/csf/oop/java/poker/game/Poker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Poker_Att1/out/production/Poker_Att1/edu/csf/oop/java/poker/game/Poker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Poker_Att1/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Poker_Att1/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Poker_Att1/src/edu/csf/oop/java/poker/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Poker_Att1/src/edu/csf/oop/java/poker/game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker.log" beforeDir="false" afterPath="$PROJECT_DIR$/Poker.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/cards/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/cards/Card.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/cards/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/cards/Deck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/cards/Dignity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/cards/Dignity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/cards/Suit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/cards/Suit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/game/Game.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/game/Poker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/game/Poker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/Bot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/Bot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/Croupier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/Croupier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/Hand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/Hand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/IBot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/IBot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/ICroupier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/ICroupier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/IPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/IPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/members/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/service/CombinationDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/service/CombinationDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/service/Combinations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/csf/oop/java/poker/service/Combinations.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="20Kejl0KpMwWUf1mLcZdETJQCdn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -27,12 +68,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Fox_and_geese" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../InsertionSort" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -115,6 +156,11 @@
       <workItem from="1637012514475" duration="8000" />
       <workItem from="1637012760986" duration="1029000" />
       <workItem from="1637014073998" duration="2091000" />
+      <workItem from="1637100598761" duration="1953000" />
+      <workItem from="1637125498818" duration="3247000" />
+      <workItem from="1637179825517" duration="549000" />
+      <workItem from="1639043124184" duration="606000" />
+      <workItem from="1639056157977" duration="273000" />
     </task>
     <servers />
   </component>
@@ -131,7 +177,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
