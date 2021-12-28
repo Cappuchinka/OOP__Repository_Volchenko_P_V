@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e987c92-9447-417b-abba-589a61ae71dc" name="Changes" comment="Poker 2.2" />
+    <list default="true" id="3e987c92-9447-417b-abba-589a61ae71dc" name="Changes" comment="Poker 2.2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +27,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Poker_Att2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Att3/GeometryObjectLib" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -44,6 +46,9 @@
       <workItem from="1637013802169" duration="261000" />
       <workItem from="1637016450417" duration="514000" />
       <workItem from="1637100514851" duration="68000" />
+      <workItem from="1640714133678" duration="393000" />
+      <workItem from="1640718805015" duration="403000" />
+      <workItem from="1640720128073" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="Edit deck">
       <created>1636920871136</created>
@@ -103,7 +108,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Edit deck" />

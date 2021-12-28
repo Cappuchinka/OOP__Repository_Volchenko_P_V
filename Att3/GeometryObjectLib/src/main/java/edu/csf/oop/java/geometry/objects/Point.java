@@ -51,4 +51,8 @@ public class Point {
         if (this == p) return true;
         return Float.compare(this.x, p.x) == 0 && Float.compare(this.y, p.y) == 0;
     }
+
+    public String getString() {
+        return "(" + x + "; " + y + ")";
+    }
 }
